@@ -1,0 +1,7 @@
+# Add 'repo' label to any root file changes
+repo:
+  - ./*
+
+# Add 'test' to any changes within 'src' folder or any subfolders
+test:
+  - src/**/*.cs
