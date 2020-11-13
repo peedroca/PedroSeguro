@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A4E26DF8-F884-41CA-A14D-27C6CF3F0C01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{63ED3B15-065F-4EBD-9544-AFDA6965B73B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5AF7A7F7-3A2E-4BE4-A411-A2F3ADEC92C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{48EEF6EA-CEFA-4A8D-99A6-4843C0843CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedroSeguro.Mobile.Android", "PedroSeguro.Mobile\PedroSeguro.Mobile.Android\PedroSeguro.Mobile.Android.csproj", "{87237941-742F-4615-9FCD-ADD49AC51963}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PedroSeguro.Mobile", "PedroSeguro.Mobile\PedroSeguro.Mobile\PedroSeguro.Mobile.csproj", "{12921F41-1F77-4CA4-BB58-7F880B5E46BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{5D8234BA-8FFB-4200-8B79-B6CDEB373524}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{80151DB4-80AE-44E6-A310-216053AAAD52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2F82EBB6-6959-4553-9E34-6D25304A1746}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PedroSeguro.PasswordManage", "PedroSeguro.PasswordManage\PedroSeguro.PasswordManage.csproj", "{52D6256D-BCDB-44CE-A244-28B96C3EEF0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PedroSeguro.Domain", "PedroSeguro.Domain\PedroSeguro.Domain.csproj", "{A65C18E4-291A-4248-8E87-9A3924FCA93A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedroSeguro.ApplicationObjects", "PedroSeguro.ApplicationObjects\PedroSeguro.ApplicationObjects.csproj", "{3C9E200F-E3A1-4B0E-8041-D2501F20BBFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedroSeguro.BaseComponents", "PedroSeguro.BaseComponents\PedroSeguro.BaseComponents.csproj", "{7CE18B4D-B20F-4A04-A3D9-8FB53052BDB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87237941-742F-4615-9FCD-ADD49AC51963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87237941-742F-4615-9FCD-ADD49AC51963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87237941-742F-4615-9FCD-ADD49AC51963}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{87237941-742F-4615-9FCD-ADD49AC51963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87237941-742F-4615-9FCD-ADD49AC51963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87237941-742F-4615-9FCD-ADD49AC51963}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{12921F41-1F77-4CA4-BB58-7F880B5E46BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12921F41-1F77-4CA4-BB58-7F880B5E46BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12921F41-1F77-4CA4-BB58-7F880B5E46BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12921F41-1F77-4CA4-BB58-7F880B5E46BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D6256D-BCDB-44CE-A244-28B96C3EEF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D6256D-BCDB-44CE-A244-28B96C3EEF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D6256D-BCDB-44CE-A244-28B96C3EEF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D6256D-BCDB-44CE-A244-28B96C3EEF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A65C18E4-291A-4248-8E87-9A3924FCA93A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65C18E4-291A-4248-8E87-9A3924FCA93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65C18E4-291A-4248-8E87-9A3924FCA93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65C18E4-291A-4248-8E87-9A3924FCA93A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C9E200F-E3A1-4B0E-8041-D2501F20BBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9E200F-E3A1-4B0E-8041-D2501F20BBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C9E200F-E3A1-4B0E-8041-D2501F20BBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9E200F-E3A1-4B0E-8041-D2501F20BBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE18B4D-B20F-4A04-A3D9-8FB53052BDB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE18B4D-B20F-4A04-A3D9-8FB53052BDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE18B4D-B20F-4A04-A3D9-8FB53052BDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE18B4D-B20F-4A04-A3D9-8FB53052BDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87237941-742F-4615-9FCD-ADD49AC51963} = {A4E26DF8-F884-41CA-A14D-27C6CF3F0C01}
+		{12921F41-1F77-4CA4-BB58-7F880B5E46BB} = {A4E26DF8-F884-41CA-A14D-27C6CF3F0C01}
+		{5D8234BA-8FFB-4200-8B79-B6CDEB373524} = {A4E26DF8-F884-41CA-A14D-27C6CF3F0C01}
+		{80151DB4-80AE-44E6-A310-216053AAAD52} = {63ED3B15-065F-4EBD-9544-AFDA6965B73B}
+		{2F82EBB6-6959-4553-9E34-6D25304A1746} = {63ED3B15-065F-4EBD-9544-AFDA6965B73B}
+		{52D6256D-BCDB-44CE-A244-28B96C3EEF0E} = {5D8234BA-8FFB-4200-8B79-B6CDEB373524}
+		{A65C18E4-291A-4248-8E87-9A3924FCA93A} = {5AF7A7F7-3A2E-4BE4-A411-A2F3ADEC92C8}
+		{3C9E200F-E3A1-4B0E-8041-D2501F20BBFF} = {80151DB4-80AE-44E6-A310-216053AAAD52}
+		{7CE18B4D-B20F-4A04-A3D9-8FB53052BDB9} = {80151DB4-80AE-44E6-A310-216053AAAD52}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEC5B643-0673-46C8-9D08-7FA87A74B5BF}
+	EndGlobalSection
+EndGlobal
