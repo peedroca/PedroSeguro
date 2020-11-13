@@ -6,6 +6,9 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using PedroSeguro.ApplicationObjects;
+using Autofac;
+using PedroSeguro.Domain.Interfaces;
 
 namespace PedroSeguro.Mobile.Droid
 {
@@ -19,9 +22,13 @@ namespace PedroSeguro.Mobile.Droid
 
             base.OnCreate(savedInstanceState);
 
+            AppContainer.Container = new Setup().CreateContainer();
+
+            var appNavigation = AppContainer.Container.Resolve<IAppNavigation>();
+
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            LoadApplication(new App());
+            LoadApplication(new App(appNavigation));
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
